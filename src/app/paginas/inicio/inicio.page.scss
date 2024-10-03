@@ -1,0 +1,63 @@
+/* Estilo general para el contenido */
+ion-content {
+  --background: #ffffff; /* Fondo blanco limpio */
+  padding: 16px;
+}
+
+/* Personalización del toolbar */
+ion-toolbar {
+  --background: #4a148c; /* Fondo morado oscuro */
+  --color: #f3b3ba; /* Texto blanco */
+  font-size: 1.5rem;
+  padding: 10px;
+  border-bottom: 4px solid #e1bee7; /* Línea inferior morado claro */
+}
+
+/* Icono Ionic personalizado */
+ion-icon {
+  font-size: 26px; /* Tamaño adecuado para el ícono */
+  margin-left: 8px;
+}
+
+/* Lista de componentes */
+ion-list {
+  background-color: #f3e5f5; /* Fondo morado muy suave */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  overflow: hidden; /* Para bordes redondeados */
+}
+
+/* Estilo de cada item de la lista */
+ion-item {
+    color: #000000;
+  --background: #e3d5f9; /* Fondo blanco para cada ítem */
+  margin: 10px 0;
+  border-radius: 10px;
+  padding: 12px;
+  transition: transform 0.2s, background-color 0.3s ease;
+}
+
+ion-item:hover {
+  --background: #e1bee7; /* Efecto hover con un tono morado claro */
+  transform: translateY(-2px); /* Efecto de elevación */
+}
+
+/* Etiqueta dentro del item */
+ion-label {
+  font-size: 1.2rem;
+  color: #000000; /* Texto negro */
+  font-weight: 600; /* Negrita */
+}
+
+/* Ajustes para pantallas más grandes */
+@media (min-width: 768px) {
+  ion-content {
+    padding: 32px;
+  }
+
+  ion-item {
+    padding: 14px;
+    font-size: 1.3rem;
+  }
+  
+}
